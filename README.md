@@ -1,4 +1,4 @@
 # inf122
-Nombre : Brayan Umpiri Chejo
+NOMBRE : Brayan Umpiri Chejo
 
-Materia : inf 122
+MATERIA : INF-122
