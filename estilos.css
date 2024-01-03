@@ -1,20 +1,42 @@
 body{
-    background-color: #0026ff;
+    background-color: #6d6e72;
 }
 h1{
     color: #ff0000;
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    background-color: black;
 }
 p{
+    font-weight: bold;
     font-style: italic;
+    font-size: large;
+    color: #5614c0;
+}
+img{
+    max-width: 75%;
+    max-height: 95%;
 }
 ol li{
     font-size: 30px;
+    color: blueviolet;
 }
 ul li{
     color: green;
+    font-weight: bold;
+    background-color: #dcf539;
+    text-align: center;
 
 }
 ul{
     background-color: antiquewhite;
     margin: 10px;
+}
+.enviar{
+    border-radius: 5px;
+    background-color: rgb(167, 167, 231);
+}
+.etiqueta{
+    padding: 2px;
+    background-color: rgb(167, 167, 231);
 }
