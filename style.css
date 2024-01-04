@@ -1,11 +1,11 @@
 body{
-    background-color: #6d6e72;
+    background-color: #b0d4ec;
 }
 h1{
-    color: #ff0000;
-    font-size: 40px;
-    font-family: 'Segoe UI';
-    background-color: black;
+    color: #df78ec;
+}
+h2{
+    color: #dff6ff;
 }
 p{
     font-weight: bold;
@@ -33,10 +33,11 @@ ul{
     margin: 10px;
 }
 .enviar{
-    border-radius: 5px;
-    background-color: rgb(167, 167, 231);
+    border-radius: 10px;
+    background-color: #e9ffec;
+    color: #272628;
 }
 .etiqueta{
-    padding: 2px;
-    background-color: rgb(167, 167, 231);
+    background-color: #ec788b;;
 }
+
