@@ -112,9 +112,9 @@ const persona = {
     ocupacion : 'Desarrolador'
 };
 console.log(persona);
-persona["apellido"] = "Umpiri";
+persona["apellido"] = "Umpiri";//agrega elementos al objeto
 persona["CI"] = 9919088;
-persona.nombre = 'Pedrito';
+persona.nombre = "Pedrito";//modifica la variable
 persona.edad = 25;
 persona.ocupacion = "Medicina";
 console.log(persona); 
@@ -125,5 +125,28 @@ console.log("Mi nombre es " + persona.nombre + " y tengo " + persona.edad + " a√
 //Arrays
 const colors = ["verde","rojo","azul"];
 console.log(colors);
+console.log(colors.length);
+console.log(colors[0]);
+console.log(colors.find("rojo"));
+colors.push("amarillo");//agrega elementos a la lista
+colors.push("negro");
+colors.push("cian");
+colors.push("CAFE");
+colors.push("MAGENTA");
+colors.push(222);
+colors.push(12);
+colors.push(7);
+colors.push(true);
+colors.push(false);
+colors.push(123.123);
+colors.push(7.987);
+colors.push(80,90,100);
+var elemento = colors.pop();//se elimina el ultimo elemento 
+console.log(colors);
+colors.reverse();//voltea la lista
+colors.sort();//ordena la lista 
+console.log(colors.find(222));
 
-
+for (let i = 0 ; i<colors.length ; i++){
+    console.log("Elemento: " + colors[i] + "\nIndice: " + i)
+}
