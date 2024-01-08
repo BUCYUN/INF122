@@ -127,7 +127,6 @@ const colors = ["verde","rojo","azul"];
 console.log(colors);
 console.log(colors.length);
 console.log(colors[0]);
-console.log(colors.find("rojo"));
 colors.push("amarillo");//agrega elementos a la lista
 colors.push("negro");
 colors.push("cian");
@@ -150,3 +149,27 @@ console.log(colors.find(222));
 for (let i = 0 ; i<colors.length ; i++){
     console.log("Elemento: " + colors[i] + "\nIndice: " + i)
 }
+
+var encontrado = colors.find (function (elemento){
+    return elemento === "rojo"
+});
+console.log(encontrado)
+
+var elemento = colors.findIndex(function (elemento){
+    return elemento === "rojo"
+});
+console.log(elemento)
+
+//FUNCIONES EN JS
+function saludar (nombre){
+    return "Hola, " + nombre + "!"
+}
+const mensaje1 = saludar("Brayan")
+console.log(mensaje)
+
+function suma (x,y){
+    return x + " + " + y + " = " + ( x + y )
+}
+const mensaje = suma (2,2);
+console.log(mensaje);
+
