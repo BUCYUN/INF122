@@ -33,6 +33,7 @@ ul{
     margin: 10px;
 }
 .enviar{
+    border: 0px;
     border-radius: 10px;
     background-color: #e9ffec;
     color: #272628;
