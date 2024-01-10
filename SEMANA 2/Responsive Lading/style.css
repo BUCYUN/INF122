@@ -1,0 +1,75 @@
+:root{
+    --gris: #2B2E34;
+    --black: #0D1423;
+    --grisc: #757D8E;
+    --white: #ffffff;
+    --textcolor: #AFC0E2;
+}
+body{
+    background-color: #2B2E34;
+    font-family: 'Nunito';
+    color: var(--white);
+    margin: 0;
+}
+.title{
+    display: grid;
+    font-size: 42px;
+    margin: 190px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 700;
+}
+.subtitle{
+    color: var(--textcolor);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+} 
+.seccion1{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.seccion2{
+    display: grid;
+    text-align: center;
+    margin: 50px 120px 50px 120px;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: var(--black);
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px 14px 30px 14px;
+}
+
+.text{
+    position: relative;
+    color: var(--textcolor);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    bottom: 15px;
+}
+
+.icon{
+    position: relative;
+    bottom: 25%;
+}
+
+.back-logo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

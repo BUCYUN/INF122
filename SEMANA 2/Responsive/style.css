@@ -34,7 +34,6 @@ body {
 .more-info{
     display: grid;
     background-color: var(--light-purple);
-    grid-template-columns: repeat(2, 1fr);
     width: 100%;
 }
 
@@ -56,16 +55,19 @@ body {
     color: var(--white);
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
     font-size: var(--md);
     cursor: pointer;
     margin: 100px 0 100px 0;
     font-family: 'Nunito';
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
 }
 
 .icons-container {
     display: grid;
     margin: 50px 100px 50px 100px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 }
 
