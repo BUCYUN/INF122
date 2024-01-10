@@ -4,7 +4,40 @@
     --grisc: #757D8E;
     --white: #ffffff;
     --textcolor: #AFC0E2;
+    --light-blue: #00C2FF;
+    --blue:#0075FF;
 }
+
+.header{
+    padding: 30px 160px 0px 160px;
+    display: flex;
+}
+
+.t1{
+    color: var(--light-blue);
+}
+
+.t2{
+    color: var(--blue);
+}
+
+.navbar {
+    color: white;
+    padding: 10px 20px;
+    align-items: end;
+}
+
+.navbar a {
+    color: var(--white);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--blue);
+}
+
+
 body{
     background-color: #2B2E34;
     font-family: 'Nunito';
@@ -14,7 +47,6 @@ body{
 .title{
     display: grid;
     font-size: 42px;
-    margin: 190px 0px 0px 0px;
     font-style: normal;
     font-weight: 700;
 }
@@ -72,4 +104,10 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+@media (max-width: 720px){
+    
+
 }
