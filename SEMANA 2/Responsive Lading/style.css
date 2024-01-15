@@ -6,25 +6,31 @@
     --textcolor: #AFC0E2;
     --light-blue: #00C2FF;
     --blue:#0075FF;
+    
 }
 
 .header{
-    padding: 30px 160px 0px 160px;
-    display: flex;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
 }
 
+
 .t1{
+    display: inline-block;
     color: var(--light-blue);
 }
 
 .t2{
+    display: inline-block;
     color: var(--blue);
 }
 
-.navbar {
+.navbar ul li{
     color: white;
-    padding: 10px 20px;
-    align-items: end;
+    list-style: none;
+    display: inline-block;
 }
 
 .navbar a {
@@ -44,11 +50,15 @@ body{
     color: var(--white);
     margin: 0;
 }
+
+
+
 .title{
     display: grid;
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
+    text-align: center;
 }
 .subtitle{
     color: var(--textcolor);
@@ -74,11 +84,12 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    width: 100%;
+    
 }
 
 .contenedor{
     background-color: var(--black);
-    height: 160px;
     flex-shrink: 0;
     border-radius: 8px;
     text-align: center;
@@ -92,12 +103,11 @@ body{
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
-    bottom: 15px;
 }
 
 .icon{
     position: relative;
-    bottom: 25%;
+    bottom: 30%;
 }
 
 .back-logo{
@@ -106,8 +116,3 @@ body{
     width: 100%;
 }
 
-
-@media (max-width: 720px){
-    
-
-}
