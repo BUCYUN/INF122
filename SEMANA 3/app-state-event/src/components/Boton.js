@@ -3,15 +3,12 @@ import '../style/Boton.css';
 
 function Boton({texto, esBotonClick, funcionClick}){
     return(
-        /*<button className={esBotonClick ? "boton-click" : "boton-reiniciar"}
+        <button className={esBotonClick ? "boton-click" : "boton-reiniciar"}
             onClick={funcionClick}>
             {texto}
-        </button>*/
-
-        <button className={esBotonClick ? "suma" : "resta"}
-        onClick={funcionClick}>
-        {texto}
         </button>
+
+
     )
 }
 

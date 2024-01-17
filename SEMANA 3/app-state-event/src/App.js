@@ -5,7 +5,8 @@ import Contador from './components/Contador';
 import { useState } from 'react';
 
 function App() {
-  const [nroClicks, setNumClicks] = useState (666);
+  const [nroClicks, setNumClicks] = useState (0);
+  const [show, setShow] = useState(true);
   const Mas3 = () => {
     setNumClicks(nroClicks + 3);
     //console.log("Click");
@@ -25,11 +26,14 @@ function App() {
   const reiniciar = () => {
     setNumClicks(0)
   }
+  const mostrar = () => {
+    setShow(!show);
+  }
 
   return (
     <div className='App'>
       <div className="contenedor-principal">
-        <Contador nroClicks={nroClicks} />
+        <Contador nroClicks={nroClicks} mostrar={show}/>
         <div className='contendedor-botones'>
           <Boton texto="+3" esBotonClick={true}
             funcionClick={Mas3} />
@@ -41,6 +45,8 @@ function App() {
             funcionClick={Menos1} />
           <Boton texto="Reiniciar" esBotonClick={false}
             funcionClick={reiniciar} />
+          <Boton texto="Mostrar/Ocultar" esBotonClick={false}
+            funcionClick={mostrar} />
         </div>
       </div>
     </div>
