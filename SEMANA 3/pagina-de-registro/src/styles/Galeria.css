@@ -1,0 +1,14 @@
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card-image{
+    width: 220px;
+    height: 200px;
+}
+
+h1{
+    background-color: aqua;
+}

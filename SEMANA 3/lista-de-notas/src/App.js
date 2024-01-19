@@ -13,8 +13,8 @@ function App() {
   };
   return (
     <div className="App">
-      <ListaNotas/>
-      <NotaBasic nota={"Hola Mundo"} onDelete={onDelete} onEdit={onEdit}/>
+      <ListaNotas />
+      
     </div>
   );
 }

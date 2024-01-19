@@ -1,0 +1,14 @@
+.contenedor-principal{
+    display: grid;
+    justify-content: center;
+}
+
+.login p{
+    display: grid;
+    justify-content: start;
+
+}
+
+.botones{
+    margin: 20px;
+}
