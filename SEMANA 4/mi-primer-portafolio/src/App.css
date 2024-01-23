@@ -1,0 +1,20 @@
+:root{
+  --yellow:#FFE071;
+  --blackN:#171F26;
+  --white:#ffffff;
+  --blackF:#0C151D;
+  --gray: #A3ABB2;
+  --gm:46px;
+  --sm:22px
+}
+
+
+.App{
+  font-family: 'poppins';
+  background-color: var(--blackF);
+}
+
+html, 
+body{
+  background-color: var(--blackF);
+}

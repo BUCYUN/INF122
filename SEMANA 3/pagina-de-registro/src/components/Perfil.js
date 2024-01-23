@@ -1,4 +1,3 @@
-
 import Boton from "./Boton";
 
 function Perfil () {
