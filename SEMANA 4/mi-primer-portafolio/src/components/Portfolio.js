@@ -5,13 +5,14 @@ import twitter from '../images/icons/twitter.svg'
 import linkedin from '../images/icons/linkedin.svg'
 import youtube from '../images/icons/youtube.svg'
 import download from '../images/icons/Bottom Alignment.svg'
+import facebook from '../images/icons/facebook.svg'
 
 function Portfolio () {
     return (
         <div className="contenedor">
             <div className="profile">
                 <div className="user-photo">
-                    <img src={require('../images/logos/foto.jpg')} alt="" />
+                    <img src={require('../images/logos/foto1.jpg')} alt="" />
                 </div>
                 <div className="name">
                     <h1>Brayan Umpiri</h1>
@@ -19,18 +20,27 @@ function Portfolio () {
                         Super Junior Frontier
                     </p>
                     <div className="icons">
-                        <img className="icon"
+                        <a href="https://github.com/BUCYUN">
+                            <img className="icon"
                             src={github} 
                             alt="" />
-                        <img className="icon" 
-                        src={twitter} 
-                        alt="" />
-                        <img className="icon" 
-                        src={linkedin}
-                        alt="" />
-                        <img className="icon" 
-                        src={youtube} 
-                        alt="" />
+                        </a>
+                        <a href="">
+                            <img className="icon" 
+                            src={twitter} 
+                            alt="" />
+                        </a>
+                        <a href="">
+                            <img className="icon" 
+                            src={facebook}
+                            alt="" />
+                        </a>
+                        <a href="">
+                            <img className="icon" 
+                            src={youtube} 
+                            alt="" />
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -54,7 +64,9 @@ function Portfolio () {
             </div>
             <div className="imagenes">
                     <section className="imagen">
-                        
+                        <button>
+                            <img src={require('../images/logos/Proyecto 1.png')} alt="" />
+                        </button>
                     </section>
             </div>
         </div>
