@@ -1,0 +1,44 @@
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    background-color: var(--ternary);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 38PX;
+}
+
+.portfolio{
+    background-color: var(--secundary);
+    color: var(--ternary);
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.skills{
+    background-color: var(--ternary);
+    color: var(--cuaternary);
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media (max-width: 800px){
+    .buttons{
+        padding: 10px;
+        gap: 10px;
+    }
+    .portfolio{
+        width: 210px;
+    }
+    .skills{
+        width: 210px;
+    }
+}

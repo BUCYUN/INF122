@@ -1,0 +1,52 @@
+.botones{
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 50px;
+    gap: 38px;
+    justify-content: center;
+}
+
+.botones a{
+    text-decoration: none;
+}
+
+.download{
+    display: flex;
+    background-color: var(--primary);
+    color: var(--secundary);
+    width: 290px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.download:hover{
+    background-color: var(--ternary);
+    color: var(--primary);
+}
+
+.contact{
+    background-color: var(--ternary);
+    color: var(--cuaternary);
+    width: 290px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact:hover{
+    background-color: var(--primary);
+    color: var(--ternary);
+}
+
+
+@media (max-width: 720px){
+    .download{
+        width: 200px;
+    }
+    .contact{
+        width: 200px;
+    }
+}
+

@@ -45,7 +45,6 @@ function page() {
                         <Boton texto="+1" esBotonClick={true}
                             funcionClick={Mas1} />
                     </div>
-
                     <Boton texto="Reiniciar" esBotonClick={false}
                         funcionClick={reiniciar} />
                     <Boton texto="Mostrar/Ocultar" esBotonClick={false} funcionClick={mostrar} />

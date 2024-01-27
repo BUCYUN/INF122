@@ -6,9 +6,6 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <Perrito/>
-      <Perrito/>
-      <Perrito/>
-      <Perrito/>
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.record {
+    display: flex;
+    padding: 20px 2px;
+    justify-content: center;
+    gap: 70px;
+}
+.record p{
+    color: var(--cuaternary);
+    font-size: var(--sm);
+    margin: 20px;
+    text-align: center;
+}
+
+@media (max-width: 720px){
+    .record {
+        gap: 10px ;
+    }
+}
+

@@ -1,0 +1,9 @@
+.contenedor{
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
