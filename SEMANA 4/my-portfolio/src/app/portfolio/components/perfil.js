@@ -5,7 +5,7 @@ import style from './perfil.module.css'
 import Image from "next/image"
 import Link from "next/link"
 
-export default function perfil ({nombre, profesion}){
+export default function perfil ({nombre, profesion, git, twitter, linkedin, youtube}){
     return(
             <div className={style.profile}>
                 <div className={style.userphoto}>
@@ -15,16 +15,16 @@ export default function perfil ({nombre, profesion}){
                     <h1>{nombre}</h1>
                     <p className={style.profesion}>{profesion}</p>
                     <div className={style.icons}>
-                        <Link href='https://github.com/BUCYUN'>
+                        <Link href={git}>
                             <Image src="/assets/icons/github.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
                         </Link>
-                        <Link href='https://twitter.com/home?lang=es'>
+                        <Link href={twitter}>
                             <Image src="/assets/icons/twitter.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
                         </Link>
-                        <Link href='https://www.linkedin.com/in/brayan-umpiri-chejo-241a2b2b0/'>
+                        <Link href={linkedin}>
                             <Image src="/assets/icons/linkedin.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
                         </Link>
-                        <Link href='https://www.youtube.com/channel/UCpaeTFETC3od_UVbzOEi2Iw'>
+                        <Link href={youtube}>
                             <Image src="/assets/icons/youtube.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
                         </Link>
                     </div>

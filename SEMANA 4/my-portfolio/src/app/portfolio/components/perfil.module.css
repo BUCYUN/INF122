@@ -9,7 +9,7 @@
     width: 192px;
     height: 192px;
     border-radius: 50%;
-    border: var(--primary) 5px solid ;
+    border: var(--primary) 7px solid ;
 }
 .name{
     display: flex;

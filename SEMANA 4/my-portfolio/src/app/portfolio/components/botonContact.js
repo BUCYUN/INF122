@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import style from './botonContact.module.css'
 
-export default function botonContact(){
+export default function botonContact({contact}){
     return(
         <div className={style.botones}>
             <Link href=''>
@@ -13,7 +13,7 @@ export default function botonContact(){
                     Download CV <Image width={28} height={24} src='/assets/icons/Bottom Alignment.svg' alt="botonDownload"/>
                 </button>
             </Link>
-            <Link href='https://wa.me/qr/IAJWH3KSMB6RP1'>
+            <Link href={contact}>
                 <button className={style.contact}>
                     Contact me
                 </button>

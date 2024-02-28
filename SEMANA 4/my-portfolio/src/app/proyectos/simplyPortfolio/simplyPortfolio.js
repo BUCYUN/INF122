@@ -16,10 +16,10 @@ export default function simplyPortfolio (){
                     <h1>Victor Alvarado</h1>
                     <p className={style.profesion}>Software Engineer</p>
                     <div className={style.icons}>
-                        <Image src="/assetsProyecto1/icons/github.svg" alt="imagen" className={style.icon} width={36} height={37}/>
-                        <Image src="/assetsProyecto1/icons/twitter.svg" alt="imagen" className={style.icon} width={36} height={37}/>
-                        <Image src="/assetsProyecto1/icons/linkedin.svg" alt="imagen" className={style.icon} width={36} height={37}/>
-                        <Image src="/assetsProyecto1/icons/youtube.svg" alt="imagen" className={style.icon} width={36} height={37}/>
+                        <Image src="/assetsProyecto1/icons/github.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
+                        <Image src="/assetsProyecto1/icons/twitter.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
+                        <Image src="/assetsProyecto1/icons/linkedin.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
+                        <Image src="/assetsProyecto1/icons/youtube.svg" alt="Vercel Logo" className={style.icon} width={36} height={37}/>
                     </div>
                 </div>
             </div>

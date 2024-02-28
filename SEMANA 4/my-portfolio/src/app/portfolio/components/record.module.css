@@ -5,9 +5,11 @@
     gap: 70px;
 }
 .record p{
+    border-radius: 20px;
+    border: var(--primary) 4px solid;
+    padding: 2%;
     color: var(--cuaternary);
     font-size: var(--sm);
-    margin: 20px;
     text-align: center;
 }
 
